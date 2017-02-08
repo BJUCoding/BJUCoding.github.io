@@ -1,0 +1,214 @@
+@import url(http://fonts.googleapis.com/css?family=Spinnaker);
+
+a, a:active, a:visited, a:hover	{
+	color:#00c1ff;
+}
+
+body	{
+	position:relative;
+	overflow-x:hidden;
+	background-color:#fff;
+	font-family: 'Spinnaker','Verdana',sans-serif;
+}
+
+.bju-brand	{
+	clear: both;
+	padding: 0;
+	display: block;
+	text-align: center;
+	background-color: #c6030c;
+	text-transform: uppercase;
+	position: relative;
+	z-index: 999;
+}
+
+.bju-brand #logo	{
+	position: fixed;
+	width: 100%;
+	font-family: 'EB Garamond',serif;
+	font-size: 1.2em;
+	background: url('../assets/um-ribbon.jpg') repeat-x;
+	color: #fff;
+	text-align: center;
+	height: 33px;
+	border-bottom: 1px solid #00c1ff;
+	margin-bottom: -4px;
+	z-index: 999;
+}
+
+.navbar	{
+	background-image:none !important;
+	background-color: rgba(0,0,0,0.85);
+}
+
+.navbar .container	{
+	padding-top: 45px;
+	padding-bottom:10px;
+}
+
+.navbar-brand	{
+	background: url('../images/cs-logo.png') no-repeat transparent;
+	width: 238px;
+	height: 71px;
+	color: #222;
+	font-size: .01em;
+}
+
+.navbar-nav	{
+	float:right;
+	margin-top: 2em;
+}
+
+.navbar-nav li a	{
+	padding: 5px 10px;
+}
+
+.navbar-inverse .navbar-nav>.active>a	{
+	background-image:none;
+	background-color: #00c1ff;
+}
+
+
+.jumbotron.intro	{
+	margin-top: 127px;
+	margin-bottom:0;
+	height: 400px;
+	background: url('../images/bg-intro.jpg') repeat-x #222;
+}
+
+.jumbotron h1	{
+	font-size:.01em;
+	margin:auto;
+}
+
+.jumbotron p	{
+	text-align:center;
+}
+
+.pane	{
+	padding-top: 127px;
+}
+
+.row	{
+	padding-bottom: 15px;
+}
+
+.white	{
+	background-color:rgba(255, 255, 255,.8);
+}
+
+.altrow	{
+	background-color:rgba(0, 165, 218, .8);
+	color:#fff;
+}
+
+.altrow a	{
+	color:#fff;
+}
+
+.page-header	{
+	font-family: 'Spinnaker','Verdana',sans-serif;
+	font-weight:normal;
+	background-color:#222;
+	text-align:center;
+	color: #fff;
+	text-transform:uppercase;
+	margin:0;
+	border-top:3px solid #00c1ff;
+}
+
+h1	{
+	font-family: 'Spinnaker',Arial,sans-serif !important;
+	font-size:3.5em;
+}
+
+#about h2	{
+	font-size: 2.5em;
+	color: #00c1ff;
+}
+
+#about h3	{
+	color: #00c1ff;
+}
+
+#about p	{
+	font-size: 1.5em;
+}
+
+.schedule, .schedule td	{
+	border-top:0 !important;
+	font-size: 1.2em;
+}
+
+.table.prizes	{
+	font-size: 1.2em;
+}
+
+.address	{
+	font-size: .8em;
+	line-height: 1.1em;
+	font-weight:bold;
+	color: #fff;
+	text-align:right;
+}
+
+p.social	{
+	padding-bottom: 15px;
+}
+
+.social a	{
+	display:block;
+	float:right;
+	margin-left: 5px;
+	font-size: 0em;
+	color: #333;
+	height: 32px;
+	width:32px;
+}
+
+footer	{
+	background-color: rgba(0,0,0,0.85);
+	float:left;
+	width:100%;
+	padding: 1em;
+}
+
+.university {
+	display: block;
+	float:left;
+	width: 221px;
+	height: 64px;
+	margin: 10px;
+	color: #333;
+	font-size: 0em;
+	background: url('../images/bju.png') no-repeat top left transparent;
+}
+
+.social .facebook	{
+	background: url('../assets/social/facebook.png') no-repeat top left transparent;
+}
+
+.social .twitter	{
+	background: url('../assets/social/twitter.png') no-repeat top left transparent;
+}
+
+.social .linkedin	{
+	background: url('../assets/social/linkedin.png') no-repeat top left transparent;
+}
+
+.social .rss	{
+	background: url('../assets/social/rss.png') no-repeat top left transparent;
+}
+
+.carousel-control, .carousel-inner>.item>img	{
+	border-radius:1em;
+}
+
+.carousel-inner>.item>img	{
+	margin:auto;
+}
+
+table .img-responsive	{
+	width:100% !important;
+}
+
