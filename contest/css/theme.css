@@ -42,12 +42,12 @@ body	{
 }
 
 .navbar .container	{
-	padding-top: 45px;
+	padding-top: 15px;
 	padding-bottom:10px;
 }
 
 .navbar-brand	{
-	background: url('../images/bju-logo.png') no-repeat transparent;
+	background: url('../images/cs-logo.png') no-repeat transparent;
 	background-size: 269px 112px;
 	width: 270px;
 	height: 71px;
@@ -71,10 +71,10 @@ body	{
 
 
 .jumbotron.intro	{
-	margin-top: 127px;
+	margin-top: 98px;
 	margin-bottom:0;
 	height: 280px;
-	background: url('../images/bg-intro.jpg') repeat-x #222;
+	background: url('../images/bg-intro.jpg') repeat-x rgba(0, 165, 218, .8);
 }
 
 .jumbotron h1	{
@@ -83,6 +83,7 @@ body	{
 }
 
 .jumbotron p	{
+	margin-top: 25px;
 	text-align:center;
 }
 
@@ -177,12 +178,13 @@ footer	{
 .university {
 	display: block;
 	float:left;
-	width: 221px;
+	width: 403px;
 	height: 64px;
 	margin: 10px;
 	color: #333;
 	font-size: 0em;
-	background: url('../images/bju.png') no-repeat top left transparent;
+	background: url('../images/bju-logo.png') no-repeat top left transparent;
+	
 }
 
 .social .facebook	{
